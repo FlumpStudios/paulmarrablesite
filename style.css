@@ -230,6 +230,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     @media print {
         html, body {
             background: #fff;
+            font-size: 18px;
         }
 
         #cv {
@@ -245,6 +246,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
         article {
             page-break-inside: avoid;
+        }
+
+        .sectionTitle h1 {
+            font-size: 1.1em;
+            white-space: nowrap;
         }
     }
     
