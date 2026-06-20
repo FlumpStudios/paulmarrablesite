@@ -450,6 +450,19 @@ a {
   font-size: 25px;
   padding: 16px 32px; }
 
+.single-portfolio .relative {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px; }
+  .single-portfolio .relative .middle {
+    width: 100%; }
+    .single-portfolio .relative .middle .text {
+      padding: 0; }
+      .single-portfolio .relative .middle .text img {
+        width: 100%;
+        height: auto;
+        display: block; }
+
 .single-portfolio {
   border-radius: 5px; }
   .single-portfolio:hover .thumb .overlay-bg {

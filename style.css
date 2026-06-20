@@ -43,7 +43,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     #name h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-left: 2px;
         font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     }
@@ -228,8 +228,23 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     }
     
     @media print {
+        html, body {
+            background: #fff;
+        }
+
         #cv {
             width: 100%;
+            margin: 0 auto;
+        }
+
+        .sectionContent {
+            float: none;
+            width: auto;
+            margin-left: 27.5%;
+        }
+
+        article {
+            page-break-inside: avoid;
         }
     }
     
