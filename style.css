@@ -229,13 +229,14 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     
     @media print {
         html, body {
-            background: #f2f2f2;
+            background: #fff;
             font-size: 18px;
         }
 
         #cv {
             width: 100%;
             margin: 0 auto;
+            background: #fff;
         }
 
         .sectionContent {
